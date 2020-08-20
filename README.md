@@ -9,11 +9,16 @@
 
 ## How to start
 
--   Take a clone of the repository.
--   Generate Laravel key.
--   Start migration.
--   Register user.
--   Boom!!! start playing it - the polling system.
+-   Take a clone of the repository
+-   Fire command `composer install`
+-   Rename .env.example to .env
+-   Generate Laravel key by using this command `php artisan key:generate`
+-   Create database in mysql for polling system
+-   Start migration by using this command `php artisan migrate`
+-   Run Laravel by sing this command `php artisan serve`
+-   Register any number of user
+-   Login to the system
+-   Boom!!! start playing it - the polling system
 
 ## About Laravel
 
